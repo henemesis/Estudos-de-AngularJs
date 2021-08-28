@@ -1,4 +1,9 @@
-# Estudos-de-AngularJs
+# Estudos-de-AngularJs  
+
+****  
+CURSO PROF. RODRIGO BRANAS  
+****  
+
  Estudos de AngularJs para atualização de conhecimentos
 
 ## 1ª AULA  
@@ -16,5 +21,5 @@ angular.module("helloWorld", []);
    
 * Há um **two-way-databinding** entre a **View** e a **Controller**, intermediado pela **Scope**  
   
->> Aqui criamos um localizdor de um módulo
+>> Aqui criamos um localizdor de um módulo  
 >> angular.module("helloWorld").controller("helloWorldCtrl", function (){ });
