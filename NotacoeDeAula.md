@@ -10,13 +10,13 @@ CURSO PROF. RODRIGO BRANAS
   
 > O **[ ]** indica a injeção, a importação de novos módulos, diretivas, services entre outros:  
 
-~~~angularjs
+~~~angular.js
 angular.module("helloWord", []);  
 ~~~
   
 >Aqui criamos um módulo:  
 
-~~~angularjs
+~~~angular.js
 angular.module("helloWorld", []);
 ~~~  
 
@@ -28,7 +28,7 @@ angular.module("helloWorld", []);
   
 > Aqui criamos um localizdor de um módulo:
 
-~~~angularjs
+~~~angular.js
 angular.module("helloWorld").controller("helloWorldCtrl", function (){ });
 ~~~  
 
@@ -38,18 +38,29 @@ angular.module("helloWorld").controller("helloWorldCtrl", function (){ });
 * __Diretivas:__ Extensões da linguagem HTML que permitem novos comportamentos, sendo implementados sobre uma nova forma declarativa.  
   
 > __ngApp__ --> Define as fronteiras da aplicação, buscando todos os comportamentos descritos pelo scripts encontrados no arquivo html. Exemplo:  
-`ng-app="listaTelefonica"`
+
+~~~angular.js
+ng-app="listaTelefonica"
+~~~
   
 >__ngController__ --> Cria vínculo entre um elemento da View com um elemento da Controller (o sistema de **rotiamento** também permite fazer tal vínculos). Exemplo:  
+~~~angular.js
 `ng-controller="listaTelefonicaCtrl"`  
-  
+~~~  
+
 >__ngBind__ --> Substitui um termo por uma expressão. Exemplo:  
-`ng-bind="app"`  
-  
+
+~~~angular.js
+ng-bind="app"  
+~~~  
+
 >__ngRpeat__ --> Permite iterar sobre os elementos de uma lista, de um array, de uma coleção de objetos.Exemplo:  
-`ng-repeat="contanto in contatos"`  
-Utilizando ng-repeat com CHAVE  E VALOR:  
+
+~~~angular.js
+ng-repeat="contanto in contatos"`  
+~~~
   
+>Utilizando ng-repeat com CHAVE  E VALOR:  
 ~~~html
 <td ng-repeat="(key, value) in contato">
     {{value}}
