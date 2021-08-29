@@ -11,8 +11,11 @@ CURSO PROF. RODRIGO BRANAS
 > O **[ ]** indica a injeção, a importação de novos módulos, diretivas, services entre outros.  
 `angular.module("helloWord", []);`  
   
+  
 >Aqui criamos um módulo  
 `angular.module("helloWorld", []);`
+  
+  
 
 * **AngularJS** trabalha no modelo MVC  
   
