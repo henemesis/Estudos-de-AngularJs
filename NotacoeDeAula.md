@@ -5,7 +5,7 @@ CURSO PROF. RODRIGO BRANAS
 
  ### Estudos de AngularJs para atualização de conhecimentos
 
-## 1ª AULA  
+## 1ª AULA: AngularJS #1 - Introdução e Hello World
 ### Conceitos básicos  
   
 > O **[ ]** indica a injeção, a importação de novos módulos, diretivas, services entre outros.  
@@ -25,3 +25,6 @@ CURSO PROF. RODRIGO BRANAS
   
 > Aqui criamos um localizdor de um módulo  
 `angular.module("helloWorld").controller("helloWorldCtrl", function (){ });`
+  
+## 2ª AULA: AngularJS #2 - Usando Diretivas - Parte 1  
+### Conceitos    
