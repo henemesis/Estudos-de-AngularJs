@@ -76,8 +76,12 @@ ng-repeat="contanto in contatos"`
 <input class="form-control" type="text" ng-model="nome"/>
 ~~~  
 
->__ngClick__ --> Atribui comportamento ao evento.  
-  
+>__ngClick__ --> Atribui comportamento ao evento. Exemplo:  
+> 
+~~~angular.js
+<button class="btn btn-primary btn-block" ng-click="adicionarContato(contato)">Adicionar Contato</button>
+~~~  
+
 Quando estivermos dentro da **controller** será necessário evitar a leitura do **$scope**. Exemplo:  
 ~~~Js
 {nome: $scope.nome, telefone: $scope.telefone}
