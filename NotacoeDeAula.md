@@ -65,4 +65,20 @@ ng-repeat="contanto in contatos"`
 <td ng-repeat="(key, value) in contato">
     {{value}}
 </td>
+~~~  
+
+>__ngModel__ --> Faz o inverso do **ngBind**, ou seja, ele pega algo da **View** (da "página") e define no **Scope**. Elementos em que se aplica ngModel:  
+>* Selects;  
+>* Inputs;  
+>* Text Areas.  
+
+~~~html
+<input class="form-control" type="text" ng-model="nome"/>
+~~~  
+
+>__ngClick__ --> Atribui comportamento ao evento.  
+  
+Quando estivermos dentro da **controller** será necessário evitar a leitura do **$scope**. Exemplo:  
+~~~Js
+{nome: $scope.nome, telefone: $scope.telefone}
 ~~~
