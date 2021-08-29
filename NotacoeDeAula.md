@@ -1,10 +1,9 @@
 # Estudos-de-AngularJs  
 
-****  
 CURSO PROF. RODRIGO BRANAS  
 ****  
 
- Estudos de AngularJs para atualização de conhecimentos
+ ### Estudos de AngularJs para atualização de conhecimentos
 
 ## 1ª AULA  
 ### Conceitos básicos
