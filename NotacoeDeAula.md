@@ -8,7 +8,7 @@ CURSO PROF. RODRIGO BRANAS
 ## 1ª AULA  
 ### Conceitos básicos  
   
-> O **[ ]** indica a injeção, a importação de novos módulos, diretivas, services entre outros.
+> O **[ ]** indica a injeção, a importação de novos módulos, diretivas, services entre outros.  
 `angular.module("helloWord", []);`  
   
 >Aqui criamos um módulo  
