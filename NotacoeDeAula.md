@@ -6,11 +6,11 @@ CURSO PROF. RODRIGO BRANAS
  ### Estudos de AngularJs para atualização de conhecimentos
 
 ## 1ª AULA  
-### Conceitos básicos
-
+### Conceitos básicos  
+  
+> O **[ ]** indica a injeção, a importação de novos módulos, diretivas, services entre outros.
 `angular.module("helloWord", []);`  
-> O **[ ]** indica a injeção, a importação de novos módulos, diretivas, services entre outros.  
-
+  
 >Aqui criamos um módulo  
 `angular.module("helloWorld", []);`
 
