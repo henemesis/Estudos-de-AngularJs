@@ -86,3 +86,6 @@ Quando estivermos dentro da **controller** será necessário evitar a leitura do
 ~~~Js
 {nome: $scope.nome, telefone: $scope.telefone}
 ~~~
+
+## 3ª AULA: AngularJS #3 - Usando Diretivas - Parte 2
+### Conceitos    
